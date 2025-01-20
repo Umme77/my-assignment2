@@ -1,3 +1,83 @@
-p{
-    background-color:red;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* nav style */
+.navebar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-btn{
+    padding: 10px 40px;
+    background-color: #FEA301;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+}
+.nav-link-1{
+    color: #FEA301;
+}
+.nav-link-2{
+    color: #01ACFD;
+}
+.nav-link-3{
+    color: #05D4DF;
+}
+.nav-link-4{
+    color: #5D58EF;
+}
+.navebar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    justify-content: space-between;
+}
+.empowering-content{
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#empowring{
+    color: #FEA301;
+}
+.towards{
+    color: #01ACFD;
+}
+.banner-para{
+    font-size: 1.25rem;
+    margin-top: -40px;
+}
+.banner-btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+/* main style */
+/* footer style */
