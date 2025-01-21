@@ -10,7 +10,13 @@
 .display-flex{
     display: flex;
 }
-
+.text-align{
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
 /* nav style */
 .navebar{
     justify-content: space-between;
@@ -89,11 +95,13 @@
 /* main style */
 main{
     background-image: url(assets/bg.png);
+    
 }
-.standard-title{
-    text-align: center;
-    margin: 50px 0;
+
+.bg-color{
+    background: linear-gradient(to bottom, #fff, #e9d9b7);
 }
+
 .standard{
     padding: 50px 40px;
     text-align: center;
@@ -127,19 +135,99 @@ main{
     background-color: #FEA301;
     border-radius: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-.umme{
-    display: none;
+/* Our Stories */
+.our-title{
+    align-items: center;
 }
+
+.our-content2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  
+}
+.our-content1 img{
+    width: 100%;
+
+}
+.our-content1{
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 16px;
+ 
+
+}
+
+.our-storie{
+    padding: 30px;
+    
+}
+.stories-content{
+    gap: 30px;
+    
+}
+.our-btn{
+    
+    background-color: #3CD8E8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 48px;
+    position: absolute;
+    margin-left: -43%;
+    margin-top: 27%;
+}
+.our-content2 img{
+    width: 100%;
+}
+
+.our{
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 16px;
+}
+.our h4{
+    padding: 10px 30px;
+}
+.our-btn-1{
+    background-color: #FEA301;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 48px;
+    position: absolute;
+    margin-left: -273px;
+    margin-top: 172px;
+}
+.our-2{
+    background-color: red;
+}
+.our-3{
+    background-color: #01ACFD;
+}
+.our-4{
+    background-color: #95B226;
+}
+.view-all{
+    background-color: black;
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+.text-aling-center{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
 /* footer style */
 
 /* responsive device for phone*/
@@ -151,7 +239,7 @@ main{
     .empowering-content{
         text-align: center;
     }
-    .nav-links, .nav-btn, h2{
+    .nav-links, .nav-btn, h2, .our-content1{
         display: none;
     }
     .nav-img{
@@ -162,5 +250,13 @@ main{
     }
     .arrow-icon{
         display: none;
+    }
+    .our-btn-1{
+        position: relative;
+        top: -12rem;
+        left: 18rem;
+    }
+    h4{
+        margin-top: -180px;
     }
 }  
