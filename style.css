@@ -135,6 +135,7 @@ main{
     background-color: #FEA301;
     border-radius: 100%;
 }
+
 /* Our Stories */
 .our-title{
     align-items: center;
@@ -154,10 +155,11 @@ main{
     background-color: #fff;
     max-width: 600px;
     border-radius: 16px;
- 
-
+ }
+.our-content1 img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
-
 .our-storie{
     padding: 30px;
     
@@ -177,14 +179,27 @@ main{
     margin-left: -43%;
     margin-top: 27%;
 }
+.spa-1{
+    color: #64C8FF;
+}
+.spa-2{
+    color: #FEA301;
+}
 .our-content2 img{
     width: 100%;
+}
+.spa-3{
+    color: #8700FF;
 }
 
 .our{
     background-color: #fff;
     max-width: 300px;
     border-radius: 16px;
+}
+.our img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 .our h4{
     padding: 10px 30px;
@@ -220,24 +235,63 @@ main{
     padding: 50px;
 }
 
-
-
-
-
-
-
-
-
 /* footer style */
+footer{
+    background-color: #01ACFD;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 0;
+    margin: 0 40px;
+    gap: 40px;
+    margin-bottom: -60px;
+}
+.footer-img{
+    max-width: 350px;
+    color: #fff;
 
+}
+.footer-about{
+    color: #fff;
+    text-align: center;
+}
+.footer-about ul{
+    list-style: none;
+}
+.footer-about a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: -38px;
+    
+}
+.footer-icon h3{
+    color: #fff;
+  
+    
+}
+.sub-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+   margin-top: 12px;
+}
+.marq marquee{
+    color: #fff;
+    padding: 40px 0;
+}
 /* responsive device for phone*/
   @media screen and (max-width: 576px) {
-    .banner, .standard-content{
+    .banner, 
+    .standard-content, 
+    .footer-section
+    .tooter-titer{
         flex-direction: column;
        
     }
+    
     .empowering-content{
         text-align: center;
+        
     }
     .nav-links, .nav-btn, h2, .our-content1{
         display: none;
@@ -246,7 +300,11 @@ main{
         display: block;
     }
     .navebar{
-        border-bottom: 2px solid #FEA301;
+        border-bottom: 1px solid #FEA301;
+        
+    }
+    .logo{
+        padding-bottom: 15px;
     }
     .arrow-icon{
         display: none;
@@ -258,5 +316,24 @@ main{
     }
     h4{
         margin-top: -180px;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 0;
+        
+    }
+     .sub-title{
+        margin: -50px 60px;
+    }
+    .tooter-titer{
+        padding-bottom: 50px;
+    }
+    .footer-about{
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+    .standard-sub-title{
+        margin-top: 220px;
     }
 }  
